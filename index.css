@@ -1,0 +1,30 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    background: linear-gradient(50deg,blue,black,blue);
+    color: white;
+    text-align: center;
+}
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    
+}
+.btn{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 3px black;
+    color: white;
+    background-color: rgb(88, 128, 239);
+    transition: 0.25ms;
+    cursor: pointer;
+}
+#btn-container{
+    text-align: center;
+    
+}
+.btn:hover{
+    background-color:rgb(32, 68, 247) ;
+}
