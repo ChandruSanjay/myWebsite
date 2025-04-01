@@ -9,7 +9,7 @@ increaseCount.onclick = () => {
     countLabel.textContent = count;
 }
 decreaseCount.onclick = () => {
-    count > 0 ? count-- : 0
+    count-- ;
     countLabel.textContent = count;
 }
 resetCount.onclick = () => {

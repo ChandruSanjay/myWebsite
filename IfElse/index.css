@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+#myAge {
+    text-decoration: none;
+}
+#mySubmit{
+    background-color: rgb(73, 73, 240);
+    color: white;
+    cursor: pointer;
+}
+#mySubmit:hover{
+    background-color:rgb(4, 71, 143) ;
+}
+#para{
+    color: red;
+}
